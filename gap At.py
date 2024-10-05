@@ -3,8 +3,8 @@ from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = '7392376452:AAFKFiu773qn7hAIBRduBt3G7qqOYGzdeN4'
-YOUR_CHAT_ID = '2072129101'
+TOKEN = 'my tocken'
+YOUR_CHAT_ID = 'my id'
 
 bot = telebot.TeleBot(TOKEN)
 
